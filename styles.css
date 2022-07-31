@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap");
+
+body {
+	background: black;
+}
+p {
+	font-family: "Edu NSW ACT Foundation", cursive;
+	font-size: 17px;
+	color: black;
+	font-weight: bolder;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	padding-top: 15px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 318px;
+	margin: 0px;
+	padding-left: 20px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0%;
+}
+.body-left,
+.body-right {
+	padding: 0 10px;
+	padding-top: 10px;
+}
+.body-left {
+	padding-left: 30px;
+}
+.body-right {
+	padding-top: 30px;
+	padding-right: 30px;
+}
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	margin-bottom: 15px;
+	color: #5d5d5e;
+	font-family: "Edu NSW ACT Foundation", cursive;
+	font-size: 18px;
+}
+.postcard-footer {
+	text-align: center;
+	padding-top: 5px;
+}
+button {
+	background-color: #cbcbce;
+	padding: 4px;
+	border-radius: 4px;
+	font-family: "Edu NSW ACT Foundation", cursive;
+	font-size: 16px;
+}
+button:hover {
+	background-color: #b6b6b9;
+}
